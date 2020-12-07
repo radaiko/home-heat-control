@@ -3,6 +3,7 @@
     public enum EType
     {
         Error,
-        Info
+        Info,
+        Debug
     }
 }

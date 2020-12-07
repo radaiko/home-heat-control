@@ -1,13 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
-    <RootNamespace>HoHeCo_Console</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\HoHeCo.Logic\HoHeCo.Logic.csproj" />
+    <ProjectReference Include="..\HoHeCo.Data\HoHeCo.Data.csproj" />
+    <ProjectReference Include="..\HoHeCo.Models\HoHeCo.Models.csproj" />
     <ProjectReference Include="..\RadLogger\RadLogger.csproj" />
   </ItemGroup>
 

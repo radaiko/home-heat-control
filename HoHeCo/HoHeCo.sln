@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RadLogger", "RadLogger\RadL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoHeCo.Data", "HoHeCo.Data\HoHeCo.Data.csproj", "{50E9C93A-EF36-4462-8896-BEC35BD6CCD3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoHeCo.Models", "HoHeCo.Models\HoHeCo.Models.csproj", "{BD3DBDCA-A0BD-4563-9386-87634F8D7D9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoHeCo.Logic", "HoHeCo.Logic\HoHeCo.Logic.csproj", "{301AE521-4FAC-45F8-99A9-AF6B53AEAFE4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{50E9C93A-EF36-4462-8896-BEC35BD6CCD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50E9C93A-EF36-4462-8896-BEC35BD6CCD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50E9C93A-EF36-4462-8896-BEC35BD6CCD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD3DBDCA-A0BD-4563-9386-87634F8D7D9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD3DBDCA-A0BD-4563-9386-87634F8D7D9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD3DBDCA-A0BD-4563-9386-87634F8D7D9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD3DBDCA-A0BD-4563-9386-87634F8D7D9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{301AE521-4FAC-45F8-99A9-AF6B53AEAFE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{301AE521-4FAC-45F8-99A9-AF6B53AEAFE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{301AE521-4FAC-45F8-99A9-AF6B53AEAFE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{301AE521-4FAC-45F8-99A9-AF6B53AEAFE4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

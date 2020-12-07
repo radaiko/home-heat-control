@@ -15,6 +15,10 @@ namespace RadLogger
                 case EType.Info:
                     LogInfo(message);
                     break;
+
+                case EType.Debug:
+                    LogDebug(message);
+                    break;
             }
         }
 
@@ -26,8 +30,17 @@ namespace RadLogger
 
         public void LogInfo(string message)
         {
-            Console.ForegroundColor = ConsoleColor.White;
+            Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("{0} Info: {1}", DateTime.Now, message);
+        }
+
+        public void LogDebug(string message)
+        {
+            if (System.Diagnostics.Debugger.IsAttached)
+            {
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.WriteLine("{0} DEBUG: {1}", DateTime.Now, message);
+            }
         }
     }
 }
