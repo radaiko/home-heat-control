@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoHeCo.Models", "HoHeCo.Mod
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoHeCo.Logic", "HoHeCo.Logic\HoHeCo.Logic.csproj", "{301AE521-4FAC-45F8-99A9-AF6B53AEAFE4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadLogger.Test", "RadLogger.Test\RadLogger.Test.csproj", "{F64A7247-01D1-4B6A-96DE-985A3B8243B0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{301AE521-4FAC-45F8-99A9-AF6B53AEAFE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{301AE521-4FAC-45F8-99A9-AF6B53AEAFE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{301AE521-4FAC-45F8-99A9-AF6B53AEAFE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F64A7247-01D1-4B6A-96DE-985A3B8243B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F64A7247-01D1-4B6A-96DE-985A3B8243B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F64A7247-01D1-4B6A-96DE-985A3B8243B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F64A7247-01D1-4B6A-96DE-985A3B8243B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
