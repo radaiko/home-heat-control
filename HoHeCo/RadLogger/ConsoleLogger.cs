@@ -9,15 +9,25 @@ namespace RadLogger
             switch (type)
             {
                 case EType.Error:
-                    Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("{0} ERROR: {1}", DateTime.Now, message);
+                    LogError(message);
                     break;
 
                 case EType.Info:
-                    Console.ForegroundColor = ConsoleColor.White;
-                    Console.WriteLine("{0} Info: {1}", DateTime.Now, message);
+                    LogInfo(message);
                     break;
             }
+        }
+
+        public void LogError(string message)
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("{0} ERROR: {1}", DateTime.Now, message);
+        }
+
+        public void LogInfo(string message)
+        {
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("{0} Info: {1}", DateTime.Now, message);
         }
     }
 }
